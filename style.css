@@ -1,0 +1,58 @@
+body {
+    background-color: #004d00; /* Fundo verde escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #e0f7fa; /* Fundo azul claro */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    width: 320px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Verde do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Transição para o efeito */
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05); /* Aumenta o tamanho */
+}
+
+#mensagem {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.erro { color: red; }
+.sucesso { color: #28a745; }
